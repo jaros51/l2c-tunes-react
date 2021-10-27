@@ -5,6 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  h1 {
+    background-color: beige;
+    border: 3px solid gray;
+    border-radius: 6px;
+    width: 333px;
+    margin: 10px auto;
+  }
+
+  header{
+    background-color: beige;
+    border: 3px solid gray;
+    border-radius: 6px;
+    width: 1333px;
+    margin: 10px auto;
+    padding: 20px;
+
+    a{
+      background-color: rgb(166, 191, 194);
+      border: 3px transparent rgb(133, 110, 110);
+      border-radius: 6px;
+      width: 1333px;
+      margin: 10px auto;
+      padding: 10px;
+      outline: 3px solid white ;
+      text-decoration: none;
+    }
+  }
 }
 
 code {

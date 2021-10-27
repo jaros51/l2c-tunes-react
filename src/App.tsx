@@ -10,12 +10,9 @@ import Tunes from './views/Tunes';
 function App() {
   return (
     <div className="App">
-      
-      
+    
       <header >
       <TheNavigation/>
-      <Dude></Dude>
-      <Suck></Suck>
       </header>
           
       <main className="content">
@@ -28,18 +25,6 @@ function App() {
 
     </div>
   );
-}
-
-function Dude(){
-  return (
-  <div> KOKOT </div>
-  )
-}
-
-
-class Suck extends React.Component{
-  render(){
-    return <p>SUCKKKK</p>}
 }
 
 export default App;
